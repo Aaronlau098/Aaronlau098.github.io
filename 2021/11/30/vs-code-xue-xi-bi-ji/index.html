@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="色彩感觉, Aaron Lau&#39;s Blog">
+    <meta name="keywords" content="VS code学习笔记, Aaron Lau&#39;s Blog">
     <meta name="description" content="记录Aaron Lau的个人日志">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>色彩感觉 | Aaron Lau&#39;s Blog</title>
+    <title>VS code学习笔记 | Aaron Lau&#39;s Blog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/Aaronlau098/Aaronlau098.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Aaronlau098/Aaronlau098.github.io/libs/awesome/css/all.css">
@@ -289,12 +289,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/Aaronlau098/Aaronlau098.github.io/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/Aaronlau098/Aaronlau098.github.io/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">色彩感觉</h1>
+                    <h1 class="description center-align post-title">VS code学习笔记</h1>
                 </div>
             </div>
         </div>
@@ -410,8 +410,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/PPT/">
-                                <span class="chip bg-color">PPT</span>
+                            <a href="/tags/learning/">
+                                <span class="chip bg-color">learning</span>
                             </a>
                         
                     </div>
@@ -426,7 +426,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-22
+                    2021-11-30
                 </div>
                 
 
@@ -435,7 +435,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    286
+                    324
                 </div>
                 
 
@@ -460,38 +460,32 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="色彩感觉"><a href="#色彩感觉" class="headerlink" title="色彩感觉"></a>色彩感觉</h3><h4 id="1、定义颜色"><a href="#1、定义颜色" class="headerlink" title="1、定义颜色"></a>1、定义颜色</h4><ul>
-<li>RGB模式</li>
-<li>HSL模式</li>
+                <h4 id="学习杂记"><a href="#学习杂记" class="headerlink" title="学习杂记"></a>学习杂记</h4><hr>
+<h5 id="1-Linux-Unix-命令行选项前的一横（-）、两横（–）和没横之间的区别？"><a href="#1-Linux-Unix-命令行选项前的一横（-）、两横（–）和没横之间的区别？" class="headerlink" title="1. Linux/Unix 命令行选项前的一横（-）、两横（–）和没横之间的区别？"></a>1. Linux/Unix 命令行选项前的一横（-）、两横（–）和没横之间的区别？</h5><ul>
+<li>选项前有一个连字符是 System V 的风格（T，Y） | UNIX98 风格（R，L）</li>
+<li>选项前有两个连字符是 GNU 的风格（T，L）</li>
+<li>选项前没有连字符是 BSD 的风格（T，Y，R）</li>
 </ul>
-<h4 id="2、色彩的感受"><a href="#2、色彩的感受" class="headerlink" title="2、色彩的感受"></a>2、色彩的感受</h4><ul>
-<li><p>冷暖</p>
-<p>一般认为红橙黄是暖色、蓝青是冷色、绿紫黑白灰是中性色，暖色常用于强调</p>
-</li>
-<li><p>明暗</p>
-<p>黄色、青色、品红要比红色、蓝色、紫色要明亮一些</p>
-</li>
-<li><p>轻重</p>
-<p>对于两个完全相同的形状，填充明亮颜色时看起来轻，填充暗沉颜色时看起来重</p>
-</li>
-<li><p>膨胀与收缩</p>
-<p>同样的形状填充波长大、明度高的颜色时要比填充波长小、明度低的颜色显得更大</p>
-</li>
-<li><p>前进与后退</p>
-<p>在浅色背景下，暗色看起来想在亮色的前面，在深色背景下，则反之</p>
-</li>
-<li><p>张扬和内敛</p>
-<p>饱和度越高，颜色越醒目跳跃，给人年轻、张扬的感觉；反之，则颜色越沉稳低调，给人成熟内敛的感觉</p>
-</li>
+<p><strong>说明：</strong>上面括号内字母含义 T：我老师 Y：引文 R：Red Hat L：Linux 就是这个范。括号内出现的字母表示赞成该说法的人。</p>
+<p>对于 ls -l 和 ls –size 这两种表示形式。</p>
+<ul>
+<li>上述 -l 这个命令行选项是单字母选项，这被称为<strong>短命令行选项</strong></li>
+<li>与单字母选项不同的是，<strong>长命令行选项</strong>由词组成。长选项不是用一个连字符开头，而是用两个连字符（–）开头。比如 –size</li>
 </ul>
-<h4 id="3、配色方法"><a href="#3、配色方法" class="headerlink" title="3、配色方法"></a>3、配色方法</h4><ul>
-<li>选择主色 和为主色选择辅色<ul>
-<li>纯色  除了黑白灰，纯色配色方案只使用一种颜色：单一色相、单一饱和度、单一明度</li>
-<li>同色系配色</li>
-<li>双色相配色 </li>
-</ul>
+<img src="两种约定的区别.png" alt="两种约定的区别" style="zoom:70%;" />
+
+<img src="三种约定的区别.png" alt="三种约定大的区别" style="zoom:80%;" />
+
+<hr>
+<h5 id="2-Linux的管道命令竖线（-）"><a href="#2-Linux的管道命令竖线（-）" class="headerlink" title="2.Linux的管道命令竖线（|）"></a>2.Linux的管道命令竖线（|）</h5><ul>
+<li><p>管道符号，是unix功能强大的一个地方,符号是一条竖线:”|”，</p>
+<pre><code>用法: command 1 | command 2 他的功能是把第一个命令command 1执行的结果作为command 2的输入传给command 2，例如:
+ls -l | more </code></pre><blockquote>
+<p>该命令列出当前目录中的任何文档，并把输出送给more命令作为输入，more命令分页显示文件列表。又如 rpm -aq | less</p>
+</blockquote>
 </li>
 </ul>
+<hr>
 
                 
             </div>
@@ -506,8 +500,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/PPT/">
-                                    <span class="chip bg-color">PPT</span>
+                                <a href="/tags/learning/">
+                                    <span class="chip bg-color">learning</span>
                                 </a>
                             
                         </div>
@@ -551,9 +545,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/11/30/vs-code-xue-xi-bi-ji/">
                     <div class="card-image">
@@ -571,9 +566,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-30
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-30
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -582,6 +577,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -600,13 +596,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/21/di-ba-zhang-pai-ban-yu-yan/pai-ban-yu-yan/">
+                <a href="/2020/04/22/di-jiu-zhang-se-cai-gan-jue/se-cai-gan-jue/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/Aaronlau098/Aaronlau098.github.io/medias/featureimages/9.jpg" class="responsive-img" alt="排版语言">
+                        <img src="https://cdn.jsdelivr.net/gh/Aaronlau098/Aaronlau098.github.io/medias/featureimages/1.jpg" class="responsive-img" alt="色彩感觉">
                         
-                        <span class="card-title">排版语言</span>
+                        <span class="card-title">色彩感觉</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -617,7 +613,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-22
                             </span>
                         <span class="publish-author">
                             

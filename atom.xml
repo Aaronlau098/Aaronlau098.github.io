@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://aaronlau098.github.io/"/>
-  <updated>2021-03-15T02:51:15.431Z</updated>
+  <updated>2021-12-02T07:09:03.962Z</updated>
   <id>https://aaronlau098.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VS code学习笔记</title>
+    <link href="https://aaronlau098.github.io/2021/11/30/vs-code-xue-xi-bi-ji/"/>
+    <id>https://aaronlau098.github.io/2021/11/30/vs-code-xue-xi-bi-ji/</id>
+    <published>2021-11-29T16:00:00.000Z</published>
+    <updated>2021-12-02T07:09:03.962Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;学习杂记&quot;&gt;&lt;a href=&quot;#学习杂记&quot; class=&quot;headerlink&quot; title=&quot;学习杂记&quot;&gt;&lt;/a&gt;学习杂记&lt;/h4&gt;&lt;hr&gt;
+&lt;h5 id=&quot;1-Linux-Unix-命令行选项前的一横（-）、两横（–）和没横之间的区别？&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="learning" scheme="https://aaronlau098.github.io/tags/learning/"/>
+    
+  </entry>
   
   <entry>
     <title>色彩感觉</title>
