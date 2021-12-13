@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Aaron Lau&#39;s Blog</title>
+  <title>Aaron Lau098&#39;s Blog</title>
   
   <subtitle>这将是一个新的尝试！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://aaronlau098.github.io/"/>
-  <updated>2021-12-03T00:49:46.683Z</updated>
+  <updated>2021-12-13T08:34:24.424Z</updated>
   <id>https://aaronlau098.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shortcuts</title>
+    <link href="https://aaronlau098.github.io/2021/12/08/shortcuts/"/>
+    <id>https://aaronlau098.github.io/2021/12/08/shortcuts/</id>
+    <published>2021-12-08T06:10:06.000Z</published>
+    <updated>2021-12-13T08:34:24.424Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;*&lt;u&gt;Hello World&lt;/u&gt;*&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Vscode快捷键&quot;&gt;&lt;a href=&quot;#Vscode快捷键&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="editor" scheme="https://aaronlau098.github.io/tags/editor/"/>
+    
+  </entry>
   
   <entry>
     <title>vscode</title>
